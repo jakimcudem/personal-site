@@ -1,0 +1,262 @@
+html {
+    height: 100%;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+}
+
+.center {
+  justify-self: center;
+  align-self: center;
+  position:absolute;
+  text-align:center;
+}
+
+/*MAIN SITE*/
+
+.topcontainer {
+  background-color: #161616;
+  display: grid;
+  grid-template-rows: 100vh;
+  grid-template-columns: 100vw;
+}
+
+@keyframes foldcirc1 {
+  0% {transform:scale(0.7);}
+  100% {transform:scale(1);}
+}
+
+@keyframes foldcirc2 {
+  0% {transform:scale(0.5);}
+  100% {transform:scale(1);}
+}
+
+@keyframes foldcirc3 {
+  0% {transform:scale(0.5);}
+  100% {transform:scale(1);}
+}
+
+@keyframes textcolor {
+  60% {color: black;}
+  100% {color: white;}
+}
+
+@keyframes textmove {
+  80% {
+    transform:translateY(0)
+  }
+  100% {
+    transform:translateY(5vh)
+  }
+}
+
+@keyframes textmove2 {
+  80% {
+    transform:translateY(0)
+  }
+  100% {
+    transform:translateY(12.5vh)
+  }
+}
+
+@keyframes textmove3 {
+  80% {
+    transform:translateY(0)
+  }
+  100% {
+    transform:translate(10vh, 10vh)
+  }
+}
+
+@keyframes textmove4 {
+  80% {
+    transform:translateY(0)
+  }
+  100% {
+    transform:translate(10vh, -10vh)
+  }
+}
+
+@keyframes textmove5 {
+  80% {
+    transform:translateY(0)
+  }
+  100% {
+    transform:translate(15vh)
+  }
+}
+
+@keyframes textmove6 {
+  80% {
+    transform:translateY(0)
+  }
+  100% {
+    transform:translateY(-15vh)
+  }
+}
+
+.circanim1 {
+  animation-name: foldcirc1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.circanim2 {
+  animation-name: foldcirc2;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.circanim3 {
+  animation-name: foldcirc3;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.circle1 {
+  background-color: black;
+  border-radius:50%;
+  height: 90vh;
+  width: 90vh;
+}
+
+.circle2 {
+  background-color: #01068f;
+  border-radius:50%;
+  height: 85%;
+  width: 85vh;
+}
+
+.circle3 {
+  background-color: black;
+  border-radius:50%;
+  height: 80vh;
+  width: 80vh;
+}
+
+.linkanim1 {
+  animation-name: textmove2;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+.linkanim2 {
+  animation-name: textmove3;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+.linkanim3 {
+  animation-name: textmove4;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+.linkanim4 {
+  animation-name: textmove5;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+.textanim2 {
+  animation-name: textmove;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+.textanim1 {
+  animation-name: textcolor;
+  animation-duration: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+.mainhead2 {
+  color: white;
+}
+
+.mainhead {
+  position:absolute;
+  justify-self: center;
+  align-self: center;
+  background-color: black;
+}
+
+/*CONTACT SITE*/
+
+.concircle1 {
+  background-color: black;
+  border-radius:50%;
+  height: 90vh;
+  width: 90vh;
+}
+
+.concircle2 {
+  background-color: #01068f;
+  border-radius:50%;
+  height: 85%;
+  width: 85vh;
+}
+
+.concircle3 {
+  background-color: black;
+  border-radius:50%;
+  height: 80vh;
+  width: 80vh;
+}
+
+.connumber {
+  color: white;
+}
+
+.conhead {
+  background-color: black;
+  color: white;
+}
+
+/*NO ANIMATION MAIN SITE*/
+
+.colorfix {
+  color: white;
+}
+
+.posfix1 {
+  animation-name: textmove;
+  animation-duration: 0;
+  animation-fill-mode: forwards;
+}
+
+.posfix2 {
+  animation-name: textmove2;
+  animation-duration: 0;
+  animation-fill-mode: forwards;
+}
+
+.posfix3 {
+  animation-name: textmove3;
+  animation-duration: 0;
+  animation-fill-mode: forwards;
+}
+
+.posfix4 {
+  animation-name: textmove4;
+  animation-duration: 0;
+  animation-fill-mode: forwards;
+}
+
+.posfix5 {
+  animation-name: textmove5;
+  animation-duration: 0;
+  animation-fill-mode: forwards;
+}
+
+.posfix6 {
+  animation-name: textmove6;
+  animation-duration: 0;
+  animation-fill-mode: forwards;
+}
